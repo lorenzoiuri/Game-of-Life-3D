@@ -1,4 +1,4 @@
-Game of Life 3D
+# Game of Life 3D
 Authors: Nicolò Rossi, Lorenzo Iuri, Simone Mezzavilla
 
 <img src="https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/main.png" width="100%">
