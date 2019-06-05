@@ -1,7 +1,7 @@
 # Game of Life 3D
 Authors: Nicolò Rossi, Lorenzo Iuri, Simone Mezzavilla
 
-<img src="https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/main.png" width="100%">
+<img src="https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/main.png" width="100%">
 
 ## Introduction
 The basic idea of this project is to adapt the 2D "Game of Life" to a 3D version, maintaining the core rules of the standard game. The traditional 2D version provide a `n x m` cell matrix, which evolves during the game activating ("keeping alive") and deactivating ("killing") its cells at every step. The rules are as follows:
@@ -31,7 +31,7 @@ In order to improve the memory usage of the game the 26 colored materials are co
 ### Terrain
 The terrain underlying the game is a pyramid built using transparent cubes, it is procedurally generated from a 15x15 pixel heightmap file. This dimension is a good compromise between efficiency and appearance quality.
 
-<img src="https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/terrain2.PNG" width="100%">
+<img src="https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/terrain2.PNG" width="100%">
 
 
 ### HUD
@@ -44,8 +44,8 @@ The game HUD shows:
 
 The HUD may be hidden using the corrisponding command.
 
-<img src="https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/hud.PNG" width="100%">
-<img src="https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/help.PNG">
+<img src="https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/hud.PNG" width="100%">
+<img src="https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/help.PNG">
 
 
 #### Font
@@ -67,7 +67,7 @@ The options menu, which can be opened pressing the blue pencil icon on the top-r
 
 Every change in the options is immediately applied.
 
-![](https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/settings1.png) ![](https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/settings2.PNG)
+![](https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/settings1.png) ![](https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/settings2.PNG)
 
 
 ## Functions
@@ -75,13 +75,13 @@ In this section are described the various functions of the system.
 ### Rotation
 A function which allows the rotation of the voxels matrix was added to the system. The user is able to rotate the game scene of 45 degrees in 4 directions, based on the position of the voxels matrix, since the rotations are made on its axis. In addition, the user is also able to reposition the game scene, in which case the matrix will rotate and end up facing the camera.
 
-![main2](https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/main2.PNG)
+![main2](https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/main2.PNG)
 
 ### Explosion
 It has been added a function which consist in "exploding" the game matrix and the terrain. Each single cube will move away from the origin following a projectile motion. Such a motion is composed of a rectilinear uniform motion on a direction parallel to the XZ plane and a uniform accelerated motion on another
 direction that is instead orthogonal to the XZ plane.
 
-<img src="https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/explosion_combined.png" width="100%">
+<img src="https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/explosion_combined.png" width="100%">
 
 ### Game progression
 The game evolves at each step, and the user has two ways to advance from one step of the game to the
@@ -99,7 +99,7 @@ This function will reposition the voxel matrix so that it is aligned to the curr
 This function switches from a perspective camera to an ortographic camera, and viceversa. After each toggle the camera will reurn to the last position had by the camera in the given mode.
 ### Window scaling
 The HUD and the game scene automatically scale according to the size of the window. This behaviour also applies whenever the browser window is resized.
-![mobile](https://raw.githubusercontent.com/redsnic/I3DG_Uniud/master/images/progetto1/report/mobile.png)
+![mobile](https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/mobile.png)
 ## Planning steps
 The planning and development process followed these steps:
 * Starting from the initial idea of creating a 3D version of the game of life we made a working prototype to assess the feasibility of the task.
