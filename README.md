@@ -1,6 +1,7 @@
 # Game of Life 3D
 Authors: Nicolò Rossi, Lorenzo Iuri, Simone Mezzavilla
-https://lorenzoiuri.github.io/Game-of-Life-3D/
+
+Try it: https://lorenzoiuri.github.io/Game-of-Life-3D/
 
 <img src="https://raw.githubusercontent.com/lorenzoiuri/Game-of-Life-3D/master/images/readme/main.png" width="100%">
 
